@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Lab 7</title>
+    <style>
+      
+      h3,
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Having Fun with JavaScript Events</h3>
+
+    <p>Click on image to add to cart</p>
+
+    <table style="width:60%; margin: auto auto;">
+      <tr>
+        <td><img src="img/gum1.jpg" alt="" id="extra"/></td>
+        <td><img src="img/gum2.jpg" alt="" id="doubleMint"/></td>
+        <td><img src="img/gum3.jpg" alt="" id="trident"/></td>
+        <td><img src="img/gum4.jpg" alt="" id="bubble_gum"/></td>
+      </tr>
+      <tr>
+          <td><span>Shopping Cart Items: <span id="CartItems"></span> </span></td>
+      </tr>
+      <tr>
+          <td><span >Shopping Cart Total: <span id="CartTotal"></span></span></td>
+      </tr>
+      <tr>
+          <td> <button id="clear">Clear</button></td>
+      </tr>
+    </table>
+    <script src="scripts/cart.js"></script>
+  </body>
+</html>
